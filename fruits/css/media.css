@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+	.main-fruit h1{
+		font-size: 150px;
+	}
+	.main-fruit h4{
+		font-size: 72px;
+	}
+}

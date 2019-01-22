@@ -27,9 +27,8 @@ ul{
 	font-size: 14px;
 }
 .main-menu a{
-	color: black;
-	text-decoration: none;
 	color: #434667;
+	text-decoration: none;
 }
 .main-menu a:hover{
 	color: #f26a69;
@@ -74,23 +73,21 @@ main{
 	background-size: cover;
 	background-position: center center;
 }
-.main-fruit{
-	color: white;
-
-}
 .main-fruit h4{
 	font-family: "Pacifico-Regular";
-	font-size: 72px;
+	font-size: 8vw;
 	text-align: center;
 	margin-top: 212px;
+	color: white;
 }
 .main-fruit h1{
 	font-family: "ArialRoundedMTBold";
-	font-size: 150px;
+	font-size: 15vw;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 110px;
 	line-height: 1;
+	color: white;
 }
 .main-fruit button{
 	height: 35px;
@@ -108,4 +105,68 @@ main{
 .main-fruit button:active,
 .main-fruit button:focus{
 	outline: none;
+}
+.futures-1{
+	color: #333333;
+}
+.futures-1 .introd h4{
+	margin: 0;
+	padding: 0;
+	margin-top: 85px;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Pacifico-Regular";
+}
+.futures-1 .introd h3{
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "ArialRoundedMTBold";
+}
+.futures-1 .introd p{
+	margin: 0;
+	padding: 0;
+	margin-top: 65px;
+	color: #999999;
+	text-align: center;
+	font-size: 24px;
+	font-family: "ArialRoundedMTBold";
+}
+.futures-1 .circles .circle{
+	font-family: "ArialRoundedMTBold";
+	background-position: center 0;
+	position: relative;
+	margin-top: 110px;
+}
+.circle-1{
+	background: url("../images/circle-1.png") no-repeat;
+}
+.circle-2{
+	background: url("../images/circle-2.png") no-repeat;
+}
+.circle-3{
+	background: url("../images/circle-3.png") no-repeat;
+}
+.circle-4{
+	background: url("../images/circle-4.png") no-repeat;
+}
+.futures-1 .circles .circle span{
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.futures-1 .circles .circle span:first-of-type{
+	font-size: 60px;
+	margin-top: 68px;
+	margin-bottom: 90px;
+}
+.futures-1 .blocks{
+	margin-top: 25px;
+}
+.futures-1 .blocks .phone-photo{
+	background: url("../images/mob-img-min.jpg") no-repeat center center;
+	height: 420px;
 }
