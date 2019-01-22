@@ -170,3 +170,46 @@ main{
 	background: url("../images/mob-img-min.jpg") no-repeat center center;
 	height: 420px;
 }
+.quote .left-icon{
+	width: 162px;
+	height: 93px;
+	padding: 1px;
+	background-color: #f36a40;
+	background-image: linear-gradient(0deg, rgba(255,255,0,0.29),rgba(255,0,255,0.29));
+}
+.quote .man-icon{
+	margin-top: 6px;
+	margin-left: 125px;
+	background-image: url("../images/man-ico.svg");
+	background-repeat: no-repeat;
+	width: 79px;
+	height: 77px;
+}
+.quote{
+	margin-top: 140px;
+}
+.quote .qot{
+	font-family: "MyriadPro-Italic";
+	color: #434667;
+	font-size: 18px;
+	position: relative;
+}
+.quote .qot p{
+	max-width: 780px;
+}
+.quote .qot::after{
+	top: 39px;
+	left: -58px;
+	content: "";
+	position: absolute;
+	border: 15px solid transparent;
+	border-right: 18px solid #434667;
+}
+.quote .qot::before{
+	top: 39px;
+	right: -20px;
+	content: "";
+	position: absolute;
+	border: 15px solid transparent;
+	border-left: 18px solid #434667;
+}

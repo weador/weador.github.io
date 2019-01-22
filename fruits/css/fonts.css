@@ -31,6 +31,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'MyriadPro-Italic';
+  src: url('../fonts/MyriadPro-It.eot');
+  src: url('../fonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-It.svg#MyriadPro-It') format('svg'),
+       url('../fonts/MyriadPro-It.ttf') format('truetype'),
+       url('../fonts/MyriadPro-It.woff') format('woff'),
+       url('../fonts/MyriadPro-It.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
