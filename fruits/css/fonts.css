@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'ArialRoundedMTBold';
+  src: url('../fonts/ArialRoundedMTBold.eot');
+  src: url('../fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg'),
+       url('../fonts/ArialRoundedMTBold.ttf') format('truetype'),
+       url('../fonts/ArialRoundedMTBold.woff') format('woff'),
+       url('../fonts/ArialRoundedMTBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pacifico-Regular';
+  src: url('../fonts/Pacifico-Regular.eot');
+  src: url('../fonts/Pacifico-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Pacifico-Regular.svg#Pacifico-Regular') format('svg'),
+       url('../fonts/Pacifico-Regular.ttf') format('truetype'),
+       url('../fonts/Pacifico-Regular.woff') format('woff'),
+       url('../fonts/Pacifico-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+

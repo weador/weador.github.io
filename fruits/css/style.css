@@ -15,6 +15,7 @@ ul{
 	background-repeat: no-repeat;
 }
 .main-menu{
+	font-family: "ArialRoundedMTBold";
 	padding-top: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -57,15 +58,54 @@ header .social i{
 	color: #434667;
 	display: block;
 }
+header{
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
 main{
 	margin: 0 auto;
 	max-width: 1920px;
 	max-height: 999px;
-	background-image: linear-gradient(45deg, rgba(242, 235, 77, .29), rgba(184, 106, 171, .29)),
+	background-image: linear-gradient(180deg, rgba(184, 106, 171, .29), rgba(242, 235, 77, .29)),
 						url("../images/bg-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 }
 .main-fruit{
 	color: white;
+
+}
+.main-fruit h4{
+	font-family: "Pacifico-Regular";
+	font-size: 72px;
+	text-align: center;
+	margin-top: 212px;
+}
+.main-fruit h1{
+	font-family: "ArialRoundedMTBold";
+	font-size: 150px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 110px;
+	line-height: 1;
+}
+.main-fruit button{
+	height: 35px;
+	width: 125px;
+	color: white;
+	background: linear-gradient(180deg, #c13d32,#f04941);
+	border: 1px solid #f26a69;
+	font-family: "MyriadPro-Regular";
+	font-size: 14px;
+	margin: 0 auto 220px;
+	display: block;
+	cursor: pointer;
+}
+.main-fruit button,
+.main-fruit button:active,
+.main-fruit button:focus{
+	outline: none;
 }
