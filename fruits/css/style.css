@@ -187,6 +187,7 @@ main{
 }
 .quote{
 	margin-top: 140px;
+	position: relative;
 }
 .quote .qot{
 	font-family: "MyriadPro-Italic";
@@ -196,6 +197,7 @@ main{
 }
 .quote .qot p{
 	max-width: 780px;
+	margin-bottom: 300px;
 }
 .quote .qot::after{
 	top: 39px;
@@ -212,4 +214,44 @@ main{
 	position: absolute;
 	border: 15px solid transparent;
 	border-left: 18px solid #434667;
+}
+
+.quotes{
+	right: -90px;
+	top: 82px;
+	position: absolute;
+	width: 291px;
+	height: 247px;
+	background-image: url("../images/quotes.png");
+}
+.type-of-product ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-size: 18px;
+	font-family: "ArialRoundedMTBold";
+}
+.type-of-product li{
+	width: 120px;
+	margin-bottom: 15px;
+}
+.type-of-product li div{
+	background-image: url("../images/product-icons.png");
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+	margin: 0 auto;
+}
+.type-of-product .type-2 div{
+	background-position: -55px 0;
+}
+.type-of-product .type-3 div{
+	background-position: -117px 0;
+}
+.type-of-product .type-4 div{
+	background-position: -175px 0;
+	width: 55px;
+}
+.type-of-product .type-5 div{
+	background-position: -230px 0;
 }
