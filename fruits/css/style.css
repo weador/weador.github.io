@@ -3,6 +3,11 @@ ul{
 	padding: 0;
 	margin: 0;
 }
+button,
+button:active,
+button:focus{
+	outline: none !important;
+}
 .top-head{
 	padding: 0;
 	margin: 0;
@@ -100,11 +105,6 @@ main{
 	margin: 0 auto 220px;
 	display: block;
 	cursor: pointer;
-}
-.main-fruit button,
-.main-fruit button:active,
-.main-fruit button:focus{
-	outline: none;
 }
 .futures-1{
 	color: #333333;
@@ -254,4 +254,175 @@ main{
 }
 .type-of-product .type-5 div{
 	background-position: -230px 0;
+}
+.price ul:first-of-type{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+.price li{
+	width: 270px;
+	height: 330px;
+	margin-bottom: 15px;
+	border: 1px solid #cccccc;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.price li div{
+	background-repeat: no-repeat;
+	align-self: center;
+}
+.price li span{
+	align-self: flex-end;
+	display: block;
+}
+.price .product-1 div{
+	background-image: url("../images/fruit-1.png");
+	width: 245px;
+	height: 159px;
+}
+.price .product-2 div{
+	background-image: url("../images/fruit-2.png");
+	width: 260px;
+	height: 237px;
+}
+.price .product-3 div{
+	background-image: url("../images/fruit-3.png");
+	width: 275px;
+	height: 175px;
+}
+.price .product-4 div{
+	background-image: url("../images/fruit-4.png");
+	width: 246px;
+	height: 192px;
+}
+.price-slider .dotes{
+	text-align: center;
+}
+.price-slider .dotes li{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #b4b4b4;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.price-slider .dotes .active{
+	height: 12px;
+	width: 12px;
+	background-color: #e0403d;
+}
+.big-fruit-description{
+	height: 680px;
+	position: relative;
+}
+.big-fruit-description .backg{
+	position: relative;
+	width: 1400px;
+	height: 525px;
+	margin-left: 130px;
+	margin-top: 150px;
+	background-color: #ee4747;
+	background-image: linear-gradient(0deg, rgba(248,239,0,0.29),rgba(237,23,245,0.29));
+	color: #fff;
+}
+.backg .big-fruit{
+	position: absolute;
+	width: 1186px;
+	height: 844px;
+	background: url("../images/main-fruit.png") no-repeat;
+	top: -150px;
+	left: -470px;
+}
+.big-fruit-description h3{
+	font-family: "Pacifico-Regular";
+	font-size: 76px;
+	margin-left: 815px;
+	margin-bottom: 22px;
+}
+.on-na-block{
+	margin-left: 690px;
+	width: 575px;
+	position: relative;
+	line-height: 0.85;
+	color: #cd3a3a;
+}
+.arrow{
+	background-image: url("../images/arrow.png");
+	background-repeat: no-repeat;
+	width: 132px;
+	height: 62px;
+	position: absolute;
+	left: 260px;
+}
+.big-fruit-description span{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 93px;
+	width: 100%;
+	display: inline-block;
+}
+.big-fruit-description span:last-of-type{
+	text-align: right;
+}
+.big-fruit-description p{
+	margin-top: 60px;
+	width: 640px;
+	margin-left: 630px;
+	font-size: 16px;
+	font-family: "Raleway-Regular";
+}
+.big-fruit-description button{
+	background-color: #212121;
+	width: 223px;
+	height: 60px;
+	color: #fff;
+	font-size: 22px;
+	font-family: "MyriadPro-Regular";
+	border-right: 1px solid rgba(33,33,33,0.4);
+	border-left: 1px solid rgba(33,33,33,0.4);
+	border-top: 1px solid rgba(33,33,33,0.8);
+	border-bottom: 1px solid rgba(33,33,33,0.8);
+	position: absolute;
+	left: 710px;
+	top: 500px;
+	cursor: pointer;
+}
+.our-team ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-size: 14px;
+	font-family: "MyriadPro-Regular";
+}
+.our-team li{
+	width: 325px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.our-team li div{
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+}
+.our-team .person-1 div{
+	background-image: url("../images/port-1.png");
+	background-position: -83px 4px;
+}
+.our-team .person-2 div{
+	background-image: url("../images/port-2.png");
+	background-position: -49px -53px;
+}
+.our-team .person-3 div{
+	background-image: url("../images/port-3.png");
 }
