@@ -293,7 +293,7 @@ main{
 }
 .price .product-3 div{
 	background-image: url("../images/fruit-3.png");
-	width: 275px;
+	width: 265px;
 	height: 175px;
 }
 .price .product-4 div{
@@ -395,20 +395,38 @@ main{
 	top: 500px;
 	cursor: pointer;
 }
-.our-team ul{
+.our-team h3{
+	display: inline;
+	margin-top: 60px;
+	width: 100%;
+	font-family: "Pacifico-Regular";
+	font-size: 24px;
+	text-align: center;
+}
+.our-team h4{
+	display: inline;
+	width: 100%;
+	font-family: "ArialRoundedMTBold";
+	font-size: 30px;
+	text-align: center;
+}
+.our-team ul,
+.service ul{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	font-size: 14px;
 	font-family: "MyriadPro-Regular";
 }
-.our-team li{
+.our-team li,
+.service li{
 	width: 325px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.our-team li div{
+.our-team li div,
+.service li div{
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 280px;
@@ -425,4 +443,75 @@ main{
 }
 .our-team .person-3 div{
 	background-image: url("../images/port-3.png");
+}
+.our-team li span{
+	font-family: "MyriadPro-Regular";
+	font-size: 18px;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+.our-team li p{
+	margin-top: 18px;
+	font-family: "MyriadPro-Regular";
+	text-align: center;
+}
+.service{
+	margin-top: 45px;
+}
+.service .serv-1 div{
+	background-image: url("../images/futures-icon-1.png");
+}
+.service .serv-2 div{
+	background-image: url("../images/futures-icon-2.png");
+}
+.service .serv-3 div{
+	background-image: url("../images/futures-icon-3.png");
+}
+.service li span{
+	font-family: "ArialRoundedMTBold";
+	font-size: 36px;
+	margin-top: 11px;
+	text-transform: uppercase;
+}
+.service li p{
+	font-family: "MyriadPro-Regular";
+	text-align: center;
+}
+.service li div{
+	height: 200px;
+}
+.service li div{
+	height: 65px;
+}
+.slider{
+	background-color: #cbcbcb;
+	height: 500px;
+	position: relative;
+	padding: 1px;
+}
+.slider div{
+	color: #fff;
+	font-family: "ArialRoundedMTBold";
+	font-size: 71px;
+	text-align: center;
+	margin-top: 205px;
+}
+.slider::after,
+.slider::before{
+	content: "";
+	border: 10px solid transparent;
+	border-right: 10px solid #fff;
+	position: absolute;
+	left: 45px;
+	top: 50%;
+	cursor: pointer;
+}
+.slider::before{
+	border-right: 10px solid transparent;
+	border-left: 10px solid #fff;
+	right: 45px;
+	left: auto;
+}
+.map{
+	margin-top: 45px;
 }
