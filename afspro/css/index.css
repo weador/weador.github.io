@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	padding: 0;
+	font: 20px Myriad Pro, Tahoma, sans-serif;
+}
+h4{
+	margin: 0;
+	padding: 0;
+	margin-left: 82px;
+	font-weight: normal;
+	font-size:33px;
+	color:rgb(92,92,92);
+}
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+.top-logo,img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 33px;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	clear: both;
+}
+.menu li:nth-child(2) a,
+.menu li:nth-child(3) a,
+.menu li:nth-child(4) a,
+.menu li:nth-child(5) a{
+	text-decoration: none;
+	color:rgb(92,92,92);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu ul li{
+	display: inline-block;
+	float:left;
+	margin-right: 88px;
+	font-size: 20px;
+	margin-top: 19px;
+}
+.menu ul li:last-child{
+	margin-right: 20px;
+}
+.menu ul li:first-child{
+	margin-top: 9px;
+	margin-bottom: 9px;
+	padding: 0;
+}
+.menu .ss{
+	display: inline-block;
+	height: 35px;
+	width: 36px;
+	background: url(../images/socseti.png);
+	vertical-align: middle;
+	margin-right: 55px;
+	clear: both;
+}
+.menu .ss-tw{
+	background-position: -36px 0;
+}
+.menu .ss-in{
+	background-position: -72px 0;
+}
+.menu:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.blueline1{
+	margin-top:35px;
+	height:28px;
+	background-color: rgb(163,193,222);
+}
+.blueline2{
+	height:13px;
+	background-color: rgb(163,193,222);
+}
+.main-img{
+	margin-top: 10px;
+	background-image: url(../images/fon-dom.png);
+	height:1599px;
+	position: relative;
+}
+.down-btn{
+	position: absolute;
+	background-image: url(../images/down_btn.png);
+	width:190px;
+	height:67px;
+	right:393px;
+	top:245px;
+}
+.main-img .logo{
+	position: absolute;
+	background-image: url(../images/logo_m.png);
+	width:232px;
+	height:81px;
+	right:665px;
+	top:356px;
+}
+.grline{
+	margin-top:8px;
+	margin-left: 2px;
+	margin-bottom: 55px;
+	height:13px;
+	background-color: rgb(140,140,140);
+	border-top:1px solid rgb(181,178,179);
+}
+.about{
+	margin-left: 400px;
+	margin-bottom: 160px;
+}
+.brk-line-1{
+	background-image: url(../images/line1.png);
+	margin-top: -80px;
+	width:1022px;
+	height:83px;
+}
+.photo-wrap{
+	position: relative;
+	margin-bottom: 650px;
+}
+.photo-1{
+	background-image: url(../images/photo1.png);
+	width: 180px;
+	height: 249px;
+	position: absolute;
+	left:82px;
+	top: 67px;
+}
+.photo-2{
+	background-image: url(../images/photo2.png);
+	width: 177px;
+	height: 280px;
+	position: absolute;
+	left:540px;
+	top: 43px;
+}
+.photo-3{
+	background-image: url(../images/photo3.png);
+	width: 209px;
+	height: 264px;
+	position: absolute;
+	left:330px;
+	top: 300px;
+}
+.photo-4{
+	background-image: url(../images/photo4.png);
+	width: 174px;
+	height: 260px;
+	position: absolute;
+	left:750px;
+	top: 305px;
+}
+.projwrap{
+	position: relative;
+	margin-bottom: 390px;
+}
+.logo-btn-uber{
+	background-image: url(../images/uber.jpg);
+	width: 176px;
+	height: 183px;
+	position: absolute;
+	left:225px;
+	top: 30px;
+}.logo-btn-netflix{
+	background-image: url(../images/NETFLIX.jpg);
+	width: 176px;
+	height: 183px;
+	position: absolute;
+	left:420px;
+}.logo-btn-spotify{
+	background-image: url(../images/spo.jpg);
+	width: 176px;
+	height: 183px;
+	position: absolute;
+	left:660px;
+	top: 30px;
+}.logo-btn-allprj{
+	background-image: url(../images/all_btn.png);
+	width: 227px;
+	height: 157px;
+	position: absolute;
+	left:400px;
+	top: 200px;
+}
+.cont{
+	margin:22px;
+	margin-bottom: 0;
+	background-color: #777777;
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+}
+.cont h4{
+	color:#fff;
+	padding-top: 20px;
+}
+.fwrap{
+	display: inline-block;
+}
+.cont .w1{
+	padding-left:240px;
+}
+.cont .w2{
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-top: 23px;
+	vertical-align: top;
+	text-align: right;
+}
+.brk-line-2{
+	position: absolute;
+	background-image: url(../images/line2.png);
+	margin-top: -50px;
+	width:1001px;
+	height:98px;
+}
+.footgrline{
+	margin: 0 22px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	height:34px;
+	background-color: #555555;
+}
+.foot{
+	margin: 0 22px;
+}
+.foot span{
+	display: inline-block;
+	float:left;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+.foot a{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: #201600;
+	margin-left: 55px;
+}
+.foot .ins{
+	padding-right: 5px;
+}
+.foot .icon{
+	height: 35px;
+	width: 36px;
+	background: url(../images/socseti.png);
+	vertical-align: middle;
+	margin-right: 10px;
+	display: inline-block;
+}
+.foot .tw{
+	background-position: -36px 0;
+}
+.foot .in{
+	background-position: -72px 0;
+}

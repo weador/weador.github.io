@@ -1,0 +1,307 @@
+body{
+	margin: 0;
+	padding: 0;
+	font: 14px Myriad Pro, Tahoma, sans-serif;
+}
+h4{
+	margin: 0;
+	padding: 0;
+	margin-left: 85px;
+	font-weight: normal;
+	font-size: 48px;
+	color:rgb(92,92,92);
+}
+h5{
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+h6{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+.top-logo,img{
+	display: block;
+	margin: 0 auto 45px;
+	margin-top: 33px;
+}
+.menu{
+	background-color: #676867;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	clear: both;
+}
+.menu li:nth-child(2) a,
+.menu li:nth-child(3) a,
+.menu li:nth-child(4) a,
+.menu li:nth-child(5) a{
+	text-decoration: none;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.menu ul li{
+	display: inline-block;
+	float:left;
+	margin-right: 80px;
+	font-size: 20px;
+	margin-top: 19px;
+}
+.menu ul li:last-child{
+	margin-right: 30px;
+}
+.menu ul li:first-child{
+	margin-top: 8px;
+	margin-bottom: 10px;
+	margin-left: 41px;
+	padding: 0;
+}
+.menu .ss{
+	display: inline-block;
+	height: 37px;
+	width: 36px;
+	background: url(../images/white_ss.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 55px;
+	clear: both;
+}
+.menu .ss-tw{
+	background-position: -36px 0;
+}
+.menu .ss-in{
+	background-position: -72px 0;
+}
+.menu:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.grline1{
+	margin-top: 10px;
+	margin-bottom: 75px;
+	height:13px;
+	background-color: #676867;
+}
+.content ul{
+	list-style: none;
+	margin: 0;
+	margin-left: 85px;
+	padding: 0;
+}
+.content ul li div{
+	display: inline-block;
+}
+.content .uber{
+	margin-top: 100px;
+	margin-bottom: 55px;
+}
+.content .uber .logo{
+	background: url(../images/kv.png) no-repeat;
+	height: 145px;
+	width: 140px;
+	position: relative;
+}
+.content .uber .icon{
+	background: url(../images/sm_uber.png) no-repeat;
+	position: absolute;
+	height: 38px;
+	width: 113px;
+	top: 61px;
+	right: 0px;
+}
+.content .uber .text{
+	margin-left: 22px;
+}
+.content .uber h5 {
+	padding-bottom: 20px;
+}
+.content .uber h6 {
+	padding-top: 17px;
+}
+.content .uber .pic{
+	background: url(../images/six_ugol.png) no-repeat;
+	height: 143px;
+	width: 163px;
+	position: relative;
+	margin-left: 72px;
+}
+.content .spo{
+	margin-left: -10px;
+	margin-bottom: 60px;
+}
+.content .spo .logo{
+	background: url(../images/six_ugol.png) no-repeat;
+	height: 143px;
+	width: 163px;
+	position: relative;
+}
+.content .spo .icon{
+	background: url(../images/sm_spo.png) no-repeat;
+	position: absolute;
+	height: 38px;
+	width: 113px;
+	top: 52px;
+	right: 24px;
+}
+.content .spo .text{
+	margin-left: 9px;
+}
+.content .spo h5{
+	padding-bottom: 28px;
+}
+.content .spo h6{
+	padding-top: 27px;
+}
+.content .spo .pic{
+	background: url(../images/krug.png) no-repeat;
+	height: 141px;
+	width: 141px;
+	position: relative;
+	margin-left: 68px;
+}
+.content .netflix{
+	margin-bottom: 55px;
+}
+.content .netflix .logo{
+	background: url(../images/kv.png) no-repeat;
+	height: 145px;
+	width: 140px;
+	margin-left: 338px;
+	margin-bottom: -3px;
+	position: relative;
+}
+.content .netflix .icon{
+	background: url(../images/sm_netflix.png) no-repeat;
+	position: absolute;
+	height: 30px;
+	width: 104px;
+	top: 58px;
+	right: 19px;
+}
+.content .netflix .text{
+	margin-left: 9px;
+}
+.content .netflix h5{
+	padding-bottom: 20px;
+}
+.content .netflix h6{
+	padding-top: 15px;
+}
+.content .netflix .pic{
+	background: url(../images/krug.png) no-repeat;
+	height: 141px;
+	width: 141px;
+	position: relative;
+}
+.content .clear .kv{
+	background: url(../images/kv.png) no-repeat;
+	height: 145px;
+	width: 140px;
+}
+.content .clear .six-ugol{
+	background: url(../images/six_ugol.png) no-repeat;
+	height: 143px;
+	width: 163px;
+	position: relative;
+	margin-left: 330px;
+}
+/*Footer*/
+.grline2{
+	margin: 75px 22px 20px;
+	height:8px;
+	background-color: rgb(140,140,140);
+	border-bottom:1px solid #dddddd;
+}
+.cont{
+	margin:22px;
+	margin-bottom: 0;
+	background-color: #777777;
+	color: #fff;
+	font-size: 19px;
+	position: relative;
+}
+.cont h4{
+	color:#fff;
+	font-size: 43px;
+	padding-top: 20px;
+	margin-left: 63px;
+}
+.fwrap{
+	display: inline-block;
+}
+.cont .w1{
+	padding-left: 315px;
+}
+.cont .w2{
+	padding-bottom: 85px;
+	padding-left: 65px;
+	padding-top: 0;
+	vertical-align: top;
+	text-align: left;
+}
+.brk-line-2{
+	position: absolute;
+	background-image: url(../images/star_line.png);
+	margin-top: -130px;
+	width:1000px;
+	height:178px;
+}
+.footgrline{
+	margin: 0 22px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	height:34px;
+	background-color: #555555;
+}
+.foot{
+	margin: 0 22px;
+}
+.foot span{
+	display: inline-block;
+	float:left;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	font-size: 21px;
+}
+.foot a{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: #201600;
+	margin-left: 55px;
+	font-size: 19px;
+}
+.foot .ins{
+	padding-right: 5px;
+}
+.foot .icon{
+	height: 35px;
+	width: 36px;
+	background: url(../images/socseti.png);
+	vertical-align: middle;
+	margin-right: 10px;
+	display: inline-block;
+}
+.foot .tw{
+	background-position: -36px 0;
+}
+.foot .in{
+	background-position: -72px 0;
+}
