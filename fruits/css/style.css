@@ -21,7 +21,7 @@ button:focus{
 }
 .main-menu{
 	font-family: "ArialRoundedMTBold";
-	padding-top: 20px;
+	padding: 20px 20px 0;
 	display: flex;
 	justify-content: space-around;
 	max-width: 485px;
@@ -41,6 +41,15 @@ button:focus{
 }
 .main-menu .active a{
 	color: #f26a69;
+}
+.top-head{
+	position: relative;
+}
+.top-head .nav-toggle{
+	display: none;
+}
+#menu{
+	display: none;
 }
 header .social{
 	padding-top: 13px;
@@ -63,7 +72,7 @@ header .social i{
 	display: block;
 }
 header{
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.8);
 	position: fixed;
 	width: 100%;
 	z-index: 1;
