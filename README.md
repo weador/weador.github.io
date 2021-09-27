@@ -9,3 +9,5 @@ Hi there. Here is some of my sites that i made when i've been traning html-codin
 3) <https://weador.github.io/afspro/index.html> - just static site
 
 4) <https://weador.github.io/logo/index.html> - sweet svg logo
+
+5) <https://weador.github.io/weather-app/index.html> - weather app
